@@ -42,6 +42,7 @@ gulp.task('scripts', function() {
     .pipe(notify({ message: 'Scripts task complete' }));
 });
 
+
 // Images
 gulp.task('images', function() {
   return gulp.src('src/images/**/*.+(png|jpg|gif|svg)')
